@@ -4,6 +4,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addTodo, toggleTodo, removeTodo } from './actions';
+import Test from './Test';
 
 function App() {
   const [text, setText] = useState('');
@@ -48,6 +49,7 @@ function App() {
         ))}
       </ul>
     </div>
+    // <Test />
   );
 }
 
